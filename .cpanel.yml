@@ -2,7 +2,7 @@
 ##test
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1276530/public_html/api/
+    - export DEPLOYPATH=/home/u1276530/public_html/api-beta/
     - /bin/rm -Rf $DEPLOYPATH
     - /bin/mkdir $DEPLOYPATH
     - /bin/cp -R application/ $DEPLOYPATH
