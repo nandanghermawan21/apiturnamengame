@@ -2,5 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/u1276530/public_html/api/
-    - /application index.html $DEPLOYPATH
-    - /system style.css $DEPLOYPATH
+    - /bin/rm -Rf $DEPLOYPATH
+    - /bin/mkdir $DEPLOYPATH
+    - /bin/cp -R application/ $DEPLOYPATH
+    - /bin/cp -R system/ $DEPLOYPATH
