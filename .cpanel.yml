@@ -7,4 +7,4 @@ deployment:
     - /bin/mkdir $DEPLOYPATH
     - /bin/cp -R application/ $DEPLOYPATH
     - /bin/cp -R system/ $DEPLOYPATH
-    - /bin/cp -R index.php $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
